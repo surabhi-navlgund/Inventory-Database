@@ -1,0 +1,56 @@
+<html lang="en">
+    <head>
+        <title>Fashion Wear</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=devive-width">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="dist/css/adminlte.min.css">
+        <!-- Google Font: Source Sans Pro -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+    </head>
+    <body>
+
+        <h4 class="c1">Update Quantity of a product</h4>
+        <form method="POST" action="/update">
+
+        <section class="content">
+            <div class="row">
+                <div class="col-md-4">
+                    
+                    <div class="card card-primary">
+                            <div class="card-header">
+                                <h3 class="card-title">Fashion Wear</h3>
+                                <div class="card-tools">
+                                <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                                <i class="fas fa-minus"></i>
+                                </button>
+                                </div>
+                            </div> 
+                           <div class="card-body">
+                            <div class="form-group">
+                                <label>Product Id: </label>&nbsp;
+                                <input type="number" placeholder="Enter Product ID" class="form-control" name="id"><br>
+                            </div>
+                            <div class="form-group">
+                                <label>New Stock: </label>&nbsp;
+                                <input type="number" placeholder="Enter quantity" class="form-control"  name="stock"><br>
+                            </div>
+                            <div class="row">
+                                <div class="col-4" style="left: -20px; bottom: 10px;">
+                                  <a href="/home"></a>
+                                  <input type="submit" value="Submit" class="btn btn-success float-right">
+                                </div>   
+                            </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+                            <!--<button id="update">Update</button>-->
+
+        </form>
+        <!--<a href="/" class="c2">Home Page</a>-->
+    </body>
+</html>
